@@ -99,7 +99,7 @@ const App = () => {
 				// Atualizar o número de telefone do contato existente
 				const updatedContact = {
 					...existingContact,
-					number: newPhone,
+					phone: newPhone,
 				};
 
 				updateContact(existingContact.id, updatedContact)
@@ -132,7 +132,7 @@ const App = () => {
 			// Adicionar um novo contato
 			const newContact = {
 				name: newName,
-				number: newPhone,
+				phone: newPhone,
 			};
 
 			addContact(newContact)

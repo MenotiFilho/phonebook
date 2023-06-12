@@ -19,7 +19,7 @@ const ContactForm = ({
 				/>
 			</div>
 			<div>
-				number:{' '}
+				phone:{' '}
 				<input
 					type="text"
 					value={phone}

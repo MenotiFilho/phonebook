@@ -3,9 +3,9 @@ const ContactList = ({ persons, onDeleteContact }) => {
 	return (
 		<>
 			{persons.map((person) => (
-				<div key={person.name}>
+				<div key={person.phone}>
 					<p>
-						{person.name} {person.number}
+						{person.name} {person.phone}
 						<button onClick={() => onDeleteContact(person.id)}>Delete</button>
 					</p>
 				</div>
